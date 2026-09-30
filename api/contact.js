@@ -8,7 +8,7 @@ export default async function handler(req,res){
       from:'WDesigns <onboarding@resend.dev>',to:['wdesigns.comercial@gmail.com'],reply_to:body.replyTo||undefined,subject:body.subject||'Contacto WDesigns',text
     })});
     const data=await response.json().catch(()=>({}));
-    if(!response.ok)return res.status(502).json({success:false,error:data.message||'Serviço de email indisponível'});
+    if(!response.ok)return res.status(502).json({success:false,error:data.message||('Resend HTTP '+response.status)});
     return res.status(200).json({success:true,id:data.id});
-  }catch(e){return res.status(500).json({success:false,error:'Erro interno no envio'})}
+  }catch(e){return res.status(500).json({success:false,error:e?.message||'Erro interno no envio'})}
 }
