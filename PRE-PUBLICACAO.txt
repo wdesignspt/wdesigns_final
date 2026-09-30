@@ -1,0 +1,22 @@
+WDesigns — revisão pré-publicação V20
+
+- Catálogo, pesquisa, filtros e ordenação ativos.
+- Galerias agrupadas por artigo.
+- Trabalhos técnicos com galerias consolidadas.
+- Fluxos de encomenda e projeto personalizado por email.
+- Aviso claro de que pedidos dependem de confirmação de preço/prazo/entrega.
+- FAQ revista para esclarecer confirmação de encomenda.
+- Layout responsivo e navegação móvel mantidos.
+
+PENDENTE ANTES DA PUBLICAÇÃO DEFINITIVA:
+- revisão final artigo a artigo (nome, preço, medida, fotografia principal);
+- domínio e alojamento;
+- dados comerciais/legais que o proprietário decida publicar;
+- redes sociais, se aplicável;
+- testar no domínio real os links de email e formulários.
+
+
+AUDITORIA CONSOLIDADA V21
+- Carrinha VW pintada à mão: 2 fotos, uma de cada carrinha.
+- Suporte para escovas de dentes e Suporte para escova mantidos como artigos distintos.
+- Carrinha VW porta-joias (26 cm): 35 €.
